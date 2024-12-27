@@ -1,0 +1,35 @@
+.sub{
+    height: 40px;
+    width: 110px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px;
+    font-size: 16px;
+}
+.sub:hover{
+    opacity: 0.7;
+}
+.sub:active{
+    opacity: 0.8;
+}
+.pur{
+    background-color: rgb(216, 216, 43);
+    width: 120px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+}
+.pur:hover{
+    opacity: 0.7;
+    color: black;
+}
+.pur:active{
+    background-color: blue;
+    color: white;
+    transition: 0.04s;
+    box-shadow: 0px 4px 5px black;
+}
